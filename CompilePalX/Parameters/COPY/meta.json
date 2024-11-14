@@ -1,12 +1,17 @@
 {
   "Name": "COPY",
   "Path": "xcopy",
+  "Arguments": "",
   "Order": 4.0,
   "DoRun": true,
   "ReadOutput": true,
   "Description": "Copies the .bsp from the mapsrc folder to maps folder.",
   "Warning": "",
   "PresetDefault": false,
+  "CheckExitCode": true,
   "BasisString": " /y /f $bsp$ $mapFolder$",
+  "SupportsBSP": false,
+  "IncompatibleGames": null,
+  "CompatibleGames": null,
   "WorkingDirectory": "$binFolder$"
 }

@@ -1,17 +1,16 @@
 {
-  "Name": "VRAD",
+  "Name": "VRAD2",
   "Path": "$vrad$",
   "Arguments": "",
   "Order": 4.0,
   "DoRun": true,
   "ReadOutput": true,
-  "Description": "Generates static lighting. (LDR ONLY)",
+  "Description": "Generates static lighting. (HDR ONLY)",
   "Warning": "",
   "PresetDefault": false,
   "CheckExitCode": false,
-  "BasisString": " -ldr -game $game$ $vmfFile$",
+  "BasisString": " -hdr -game $game$ $vmfFile$",
   "SupportsBSP": false,
   "IncompatibleGames": null,
-  "CompatibleGames": null,
-  "WorkingDirectory": null
+  "CompatibleGames": null
 }
